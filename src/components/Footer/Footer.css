@@ -1,0 +1,46 @@
+.Footer {
+    left: 0;
+    bottom: 0;
+    background-color: #9F968F;
+    color: white;
+   
+  }
+
+  
+  .Footer .conteiner .lorem {
+    margin: 10px;
+    text-align: center;
+  }
+  .Footer .conteiner .contacto {
+    display: flex;
+    padding-bottom: 40px;
+    padding-left: 40%;
+  }
+  .Footer .conteiner .contacto ul {
+    align-items: center;
+  }
+  .Footer .conteiner .contacto ul li i {
+    width: 70px;
+  }
+ 
+  @media (min-width: 800px) {
+    .Footer .conteiner {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+     img {
+      width: 200px;
+      grid-column: 1/2;
+    }
+    .Footer .lorem {
+      margin: 10px;
+      grid-column: 2/3;
+      text-align: center;
+    }
+    .Footer .contacto {
+      grid-column: 3/4;
+      padding-bottom: 40px;
+      padding-left: 40%;
+    }
+    
+  }

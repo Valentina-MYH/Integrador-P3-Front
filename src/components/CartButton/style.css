@@ -1,0 +1,9 @@
+.cart-list {display: block;
+    list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    .cart-list li {
+      margin-bottom: 10px; 
+    }
